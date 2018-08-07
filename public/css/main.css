@@ -1,0 +1,19 @@
+body {
+
+background-image: url('../images/LCDSoundsystemBackground.jpg');no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+color: white;
+
+}
+
+img {
+  height: 200px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  border
+
+}
