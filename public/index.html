@@ -6,11 +6,21 @@
     <script src="js/bundle.js"></script>
     <link rel="stylesheet" href="css/main.css">
   </head>
+
   <body>
-    <h1>Families of Musical Instruments</h1>
-    <label>Select a family: </label>
-    <select id="instrument-families">
-      <option disabled selected></option>
-    </select>
-  </body>
+
+    <header class="title-bar">
+      <h1 class="page-title">Musical Instrument Families</h1>
+    </header>
+
+
+    <div class="instrument-selection">
+      <label>Select an instrument family</label>
+      <select id="instrument-dropdown">
+        <option disabled selected></option>
+      </select>
+    </div>
+
+    <div id="instrument-info"></div>
+</body>
 </html>
