@@ -23,6 +23,11 @@ SelectView.prototype.populate = function(instrumentData){
     option.value = index;
     this.element.appendChild(option);
   })
-}
+};
+
+
+
+
+
 
 module.exports = SelectView;

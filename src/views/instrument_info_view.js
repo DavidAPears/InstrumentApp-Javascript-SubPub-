@@ -2,6 +2,7 @@ const PubSub = require('../helpers/pub_sub.js');
 
 const InstrumentInfoView = function(container){
   this.container = container;
+    this.renderList(instrument);
 };
 
 InstrumentInfoView.prototype.bindEvents = function(){
@@ -19,6 +20,22 @@ InstrumentInfoView.prototype.render = function(instrument){
   // This line above ensures that the div is always set to nothing, so that the lsit returned is only ever the selected animal
   this.container.appendChild(infoParagraph);
 };
+
+
+// List attempts (Extension)...(not working)
+
+// ResultView.prototype.renderList = function (instrument) {
+//
+//     const list = document.createElement('ul');
+//
+//     family.instrument.forEach((instrument, index)=>{
+//       const listElement = document.createElement('li');
+//       listElement.textContent = instrument;
+//       list.appendChild(listElement);
+//     })
+//     this.container.appendChild(list);
+//
+// };
 
 
 module.exports = InstrumentInfoView;
